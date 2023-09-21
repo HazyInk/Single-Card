@@ -1,9 +1,8 @@
 body {
   background: linear-gradient(#cbbde2, #bbaaf8, #9ba5ff, rgb(132, 208, 255));
+  color: #555368;
 	background-size: 400% 400%;
   height: 100vh;
-
-  color: #555368;
   margin-top: 5rem;
   display: flex;
   justify-content: center;
@@ -19,16 +18,17 @@ a {
   color: #514e73;
 }
 
-img, .card:hover {
-  background-color: #483064;
-  color: #bca2d8;
-  object-fit: contain;
-}
-
 img {
   border-radius: 15px;
   opacity: 0.87;
   width: 300px;
+}
+
+
+img, .card:hover {
+  background-color: #483064;
+  color: #bca2d8;
+  object-fit: contain;
 }
 
 .card {
