@@ -1,5 +1,5 @@
 # Single Card
-*Was allowed to resubmit by tony this morning durring class*
+*Was allowed to resubmit by tony this morning during class*
 
 ## Web Page Construction Fundamentals (CPNT-260-A)
 
