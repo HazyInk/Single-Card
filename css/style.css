@@ -1,0 +1,61 @@
+/* The overarching code */
+body {
+  background-size: 400% 400%;
+  height: 100vh;
+
+  background: linear-gradient(#cbbde2, #bbaaf8, #9ba5ff, rgb(132, 208, 255));
+}
+
+main {
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Croissant One', cursive;
+}
+
+h3, p, h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* The actual card customization */
+
+.card {
+  border-radius: 15px;
+  padding: 1rem;
+  max-width: 300px;
+
+  box-shadow: 0 4px 20px 0 rgba(60, 44, 79, 0.378);
+  background-color: #fffde5;
+}
+
+/* The tag that makes the card clickable */
+
+a {
+  text-decoration: none;
+
+  color: #514e73;
+}
+
+/* Image & hover state */
+
+img {
+  border-radius: 15px;
+  width: 300px;
+
+  opacity: 0.87;
+}
+
+
+img, .card:hover {
+  object-fit: contain;
+  
+  background-color: #483064;
+  color: #bca2d8;
+}
