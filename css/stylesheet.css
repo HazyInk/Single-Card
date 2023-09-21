@@ -10,6 +10,27 @@ body {
   text-align: center;
 }
 
+h6 {
+  color: #85839b;
+}
+
+a {
+  text-decoration: none;
+  color: #514e73;
+}
+
+img, .card:hover {
+  background-color: #483064;
+  color: #bca2d8;
+  object-fit: contain;
+}
+
+img {
+  border-radius: 15px;
+  opacity: 0.87;
+  width: 300px;
+}
+
 .card {
   box-shadow: 0 4px 20px 0 rgba(60, 44, 79, 0.378);
   background-color: #fffde5;
