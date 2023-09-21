@@ -6,7 +6,7 @@ body {
   background: linear-gradient(#cbbde2, #bbaaf8, #9ba5ff, rgb(132, 208, 255));
 }
 
-main {
+article {
   margin-top: 2rem;
 
   display: flex;
