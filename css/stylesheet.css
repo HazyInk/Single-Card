@@ -1,41 +1,57 @@
+/* The overarching code */
 body {
-  background: linear-gradient(#cbbde2, #bbaaf8, #9ba5ff, rgb(132, 208, 255));
-  color: #555368;
-	background-size: 400% 400%;
-  height: 100vh;
-  margin-top: 5rem;
   display: flex;
   justify-content: center;
   text-align: center;
+
+  background-size: 400% 400%;
+  height: 100vh;
+  margin-top: 5rem;
+
+  background: linear-gradient(#cbbde2, #bbaaf8, #9ba5ff, rgb(132, 208, 255));
+  color: #555368;
 }
+
+/* Header color to make it stand out */
 
 h6 {
   color: #85839b;
 }
 
+/* The tag that makes the card clickable */
+
 a {
   text-decoration: none;
+
   color: #514e73;
 }
 
+/* Image & hover state */
+
 img {
   border-radius: 15px;
-  opacity: 0.87;
   width: 300px;
+
+  opacity: 0.87;
 }
 
 
 img, .card:hover {
+  object-fit: contain;
+  
   background-color: #483064;
   color: #bca2d8;
-  object-fit: contain;
 }
 
+/* The actual card customization */
+
 .card {
-  box-shadow: 0 4px 20px 0 rgba(60, 44, 79, 0.378);
-  background-color: #fffde5;
+  font-family: arial;
+
   border-radius: 15px;
   padding: 1rem;
   max-width: 300px;
-  font-family: arial;
+
+  box-shadow: 0 4px 20px 0 rgba(60, 44, 79, 0.378);
+  background-color: #fffde5;
 }
